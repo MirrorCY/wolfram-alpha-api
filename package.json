@@ -1,7 +1,7 @@
 {
-  "name": "koishi-plugin-wolfram-alpha-api",
-  "description": "使用 [Wolfram Alpha](https://www.wolframalpha.com/) 查询",
-  "version": "0.0.1",
+  "name": "koishi-plugin-alpha-simple",
+  "description": "使用 [Wolfram Alpha simple-api](https://products.wolframalpha.com/simple-api/documentation) 查询",
+  "version": "0.0.2",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -9,13 +9,11 @@
     "dist"
   ],
   "license": "MIT",
-  "scripts": {},
   "keywords": [
     "chatbot",
     "koishi",
     "plugin"
   ],
-  "devDependencies": {},
   "peerDependencies": {
     "koishi": "^4.17.2"
   }
